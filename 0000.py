@@ -27,7 +27,6 @@ def solution(img):
 
 
 if __name__ == '__main__':
-    img =''
     img = './pic/1.jpg'
     solution(img)
     
