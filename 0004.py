@@ -13,3 +13,10 @@ for i in range(1000):
 # 将单词写入文件
 with open('words.txt', 'w') as file:
     file.write(' '.join(words))
+
+
+# 读取文件
+with open('words.txt', 'r') as file:
+    words = file.read().split()
+
+print(len(words))
